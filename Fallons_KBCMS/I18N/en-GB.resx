@@ -1889,4 +1889,10 @@ Are you sure you want to use this size?</value>
   <data name="The site display name" xml:space="preserve">
     <value>The site display name</value>
   </data>
+  <data name="Edit a content" xml:space="preserve">
+    <value>Edit a content</value>
+  </data>
+  <data name="Selected Files" xml:space="preserve">
+    <value>Selected Files</value>
+  </data>
 </root>
