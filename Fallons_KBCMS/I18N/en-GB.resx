@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Site cluster" xml:space="preserve">
+    <value>Site cluster</value>
+  </data>
+  <data name="(Offline)" xml:space="preserve">
+    <value>(Offline)</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Create a subsite" xml:space="preserve">
+    <value>Create a subsite</value>
+  </data>
+  <data name="New sub site" xml:space="preserve">
+    <value>New sub site</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Import database" xml:space="preserve">
+    <value>Import database</value>
+  </data>
+  <data name="Take offline" xml:space="preserve">
+    <value>Take offline</value>
+  </data>
+  <data name="Clear cache" xml:space="preserve">
+    <value>Clear cache</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="A name cannot contain a space or any of the following characters:\/:*?&lt;&gt;|~" xml:space="preserve">
+    <value>A name cannot contain a space or any of the following characters:\/:*?&lt;&gt;|~</value>
+  </data>
+  <data name="'Name' is invalid." xml:space="preserve">
+    <value>'Name' is invalid.</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="The site name" xml:space="preserve">
+    <value>The site name</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="The parent website which this new website will be based on." xml:space="preserve">
+    <value>The parent website which this new website will be based on.</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Parent</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name=" - Kooboo CMS" xml:space="preserve">
+    <value> - Kooboo CMS</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="Back to site manager" xml:space="preserve">
+    <value>Back to site manager</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="A new site" xml:space="preserve">
+    <value>A new site</value>
+  </data>
+  <data name="A new subsite" xml:space="preserve">
+    <value>A new subsite</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="Set as default page" xml:space="preserve">
+    <value>Set as default page</value>
+  </data>
+  <data name="Change language" xml:space="preserve">
+    <value>Change language</value>
+  </data>
+  <data name="Change password" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="Sign out" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
+  <data name="Relation" xml:space="preserve">
+    <value>Relation</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Memberships" xml:space="preserve">
+    <value>Memberships</value>
+  </data>
+  <data name="Site templates" xml:space="preserve">
+    <value>Site templates</value>
+  </data>
+  <data name="Modules" xml:space="preserve">
+    <value>Modules</value>
+  </data>
+  <data name="Site level A/B Test" xml:space="preserve">
+    <value>Site level A/B Test</value>
+  </data>
+  <data name="A/B rules" xml:space="preserve">
+    <value>A/B rules</value>
+  </data>
+  <data name="A/B site settings" xml:space="preserve">
+    <value>A/B site settings</value>
+  </data>
+  <data name="Powered by Kooboo CMS" xml:space="preserve">
+    <value>Powered by Kooboo CMS</value>
+  </data>
+  <data name="Kooboo team" xml:space="preserve">
+    <value>Kooboo team</value>
+  </data>
+  <data name="All your changes might be lost." xml:space="preserve">
+    <value>All your changes might be lost.</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="The &lt;strong&gt;{0}&lt;/strong&gt; will be permanently deleted and cannot be recovered. Are you sure?" xml:space="preserve">
+    <value>The &lt;strong&gt;{0}&lt;/strong&gt; will be permanently deleted and cannot be recovered. Are you sure?</value>
+  </data>
+  <data name="The content database is being used by other websites, it will not be deleted." xml:space="preserve">
+    <value>The content database is being used by other websites, it will not be deleted.</value>
+  </data>
+  <data name="This site will be permanently deleted and cannot be recovered. Are you sure?" xml:space="preserve">
+    <value>This site will be permanently deleted and cannot be recovered. Are you sure?</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="-Kooboo CMS" xml:space="preserve">
+    <value>-Kooboo CMS</value>
+  </data>
+  <data name="The site is offline, please remove this file to take it online." xml:space="preserve">
+    <value>The site is offline, please remove this file to take it online.</value>
+  </data>
+  <data name="You do not have any site yet, click the button below to create a site." xml:space="preserve">
+    <value>You do not have any site yet, click the button below to create a site.</value>
+  </data>
+  <data name="Browse more templates online" xml:space="preserve">
+    <value>Browse more templates online</value>
+  </data>
+  <data name="Are you sure you want to delete these items?" xml:space="preserve">
+    <value>Are you sure you want to delete these items?</value>
+  </data>
+  <data name="Requires a zip file." xml:space="preserve">
+    <value>Requires a zip file.</value>
+  </data>
+  <data name="Only .zip file is accepted." xml:space="preserve">
+    <value>Only .zip file is accepted.</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Requires a png file." xml:space="preserve">
+    <value>Requires a png file.</value>
+  </data>
+  <data name="Only .png file is accepted.(100 * 100)" xml:space="preserve">
+    <value>Only .png file is accepted.(100 * 100)</value>
+  </data>
+  <data name="Thumbnail" xml:space="preserve">
+    <value>Thumbnail</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Content databases" xml:space="preserve">
+    <value>Content databases</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="Are you sure you want to delete the content database?" xml:space="preserve">
+    <value>Are you sure you want to delete the content database?</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Membership" xml:space="preserve">
+    <value>Membership</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="Content database" xml:space="preserve">
+    <value>Content database</value>
+  </data>
+  <data name="Create new membership" xml:space="preserve">
+    <value>Create new membership</value>
+  </data>
+  <data name="Create new site" xml:space="preserve">
+    <value>Create new site</value>
+  </data>
+  <data name="Create new content database" xml:space="preserve">
+    <value>Create new content database</value>
+  </data>
+  <data name="Members" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="User name" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Provider type" xml:space="preserve">
+    <value>Provider type</value>
+  </data>
+  <data name="Create date" xml:space="preserve">
+    <value>Create date</value>
+  </data>
+  <data name="Is approved" xml:space="preserve">
+    <value>Is approved</value>
+  </data>
+  <data name="Is locked out" xml:space="preserve">
+    <value>Is locked out</value>
+  </data>
+  <data name="Login date" xml:space="preserve">
+    <value>Login date</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="Connects" xml:space="preserve">
+    <value>Connects</value>
+  </data>
+  <data name="Edit membership" xml:space="preserve">
+    <value>Edit membership</value>
+  </data>
+  <data name="Only alphameric and numeric are allowed in the field name" xml:space="preserve">
+    <value>Only alphameric and numeric are allowed in the field name</value>
+  </data>
+  <data name="The form authentication cookie name. If it is empty, it will use the site name as the cookie name. &lt;br &gt;If you want to share the same cookie name and value across different websites, you need to use the same cookie name." xml:space="preserve">
+    <value>The form authentication cookie name. If it is empty, it will use the site name as the cookie name. &lt;br &gt;If you want to share the same cookie name and value across different websites, you need to use the same cookie name.</value>
+  </data>
+  <data name="Auth cookie name" xml:space="preserve">
+    <value>Auth cookie name</value>
+  </data>
+  <data name="The form authentication cookie domain. You can set cookies from sub-domains to use the top domain, in order to share the cookie values across sub domain sites." xml:space="preserve">
+    <value>The form authentication cookie domain. You can set cookies from sub-domains to use the top domain, in order to share the cookie values across sub domain sites.</value>
+  </data>
+  <data name="Auth cookie domain" xml:space="preserve">
+    <value>Auth cookie domain</value>
+  </data>
+  <data name="The identifier of the algorithm used to hash passwords." xml:space="preserve">
+    <value>The identifier of the algorithm used to hash passwords.</value>
+  </data>
+  <data name="Hash algorithm type" xml:space="preserve">
+    <value>Hash algorithm type</value>
+  </data>
+  <data name="The Min required password length field is required." xml:space="preserve">
+    <value>The Min required password length field is required.</value>
+  </data>
+  <data name="Set the minimum length required for a password." xml:space="preserve">
+    <value>Set the minimum length required for a password.</value>
+  </data>
+  <data name="Min required password length" xml:space="preserve">
+    <value>Min required password length</value>
+  </data>
+  <data name="Set the regular expression used to evaluate a password. Let it blank if you do not want to use it" xml:space="preserve">
+    <value>Set the regular expression used to evaluate a password. Let it blank if you do not want to use it</value>
+  </data>
+  <data name="Password strength regular expression" xml:space="preserve">
+    <value>Password strength regular expression</value>
+  </data>
+  <data name="The Max invalid password attempts field is required." xml:space="preserve">
+    <value>The Max invalid password attempts field is required.</value>
+  </data>
+  <data name="Set the number of invalid password attempts allowed before the membership user is locked out." xml:space="preserve">
+    <value>Set the number of invalid password attempts allowed before the membership user is locked out.</value>
+  </data>
+  <data name="Max invalid password attempts" xml:space="preserve">
+    <value>Max invalid password attempts</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="Not avaliable" xml:space="preserve">
+    <value>Not avaliable</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="1. Database" xml:space="preserve">
+    <value>1. Database</value>
+  </data>
+  <data name="Create a database to store your content" xml:space="preserve">
+    <value>Create a database to store your content</value>
+  </data>
+  <data name="2. Setting" xml:space="preserve">
+    <value>2. Setting</value>
+  </data>
+  <data name="Create folders or content types with custom fields" xml:space="preserve">
+    <value>Create folders or content types with custom fields</value>
+  </data>
+  <data name="3. Content " xml:space="preserve">
+    <value>3. Content </value>
+  </data>
+  <data name="Create text content &lt;br /&gt; or upload media files" xml:space="preserve">
+    <value>Create text content &lt;br /&gt; or upload media files</value>
+  </data>
+  <data name="Create a database" xml:space="preserve">
+    <value>Create a database</value>
+  </data>
+  <data name="Add content type" xml:space="preserve">
+    <value>Add content type</value>
+  </data>
+  <data name="Add text folder" xml:space="preserve">
+    <value>Add text folder</value>
+  </data>
+  <data name="Add text content" xml:space="preserve">
+    <value>Add text content</value>
+  </data>
+  <data name="Add media files" xml:space="preserve">
+    <value>Add media files</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Indexed data" xml:space="preserve">
+    <value>Indexed data</value>
+  </data>
+  <data name="Content type" xml:space="preserve">
+    <value>Content type</value>
+  </data>
+  <data name="Broadcasting" xml:space="preserve">
+    <value>Broadcasting</value>
+  </data>
+  <data name="Sending setting" xml:space="preserve">
+    <value>Sending setting</value>
+  </data>
+  <data name="Receiving setting" xml:space="preserve">
+    <value>Receiving setting</value>
+  </data>
+  <data name="Contents" xml:space="preserve">
+    <value>Contents</value>
+  </data>
+  <data name="Media Library" xml:space="preserve">
+    <value>Media Library</value>
+  </data>
+  <data name="Text content" xml:space="preserve">
+    <value>Text content</value>
+  </data>
+  <data name="New folder" xml:space="preserve">
+    <value>New folder</value>
+  </data>
+  <data name="More..." xml:space="preserve">
+    <value>More...</value>
+  </data>
+  <data name="Relations" xml:space="preserve">
+    <value>Relations</value>
+  </data>
+  <data name="Details view" xml:space="preserve">
+    <value>Details view</value>
+  </data>
+  <data name="Thumbnails view" xml:space="preserve">
+    <value>Thumbnails view</value>
+  </data>
+  <data name="All Elements" xml:space="preserve">
+    <value>All Elements</value>
+  </data>
+  <data name="Only Documents" xml:space="preserve">
+    <value>Only Documents</value>
+  </data>
+  <data name="Only Folders" xml:space="preserve">
+    <value>Only Folders</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="FileType" xml:space="preserve">
+    <value>FileType</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Invalid folder name." xml:space="preserve">
+    <value>Invalid folder name.</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="Sending repository" xml:space="preserve">
+    <value>Sending repository</value>
+  </data>
+  <data name="Sending folder" xml:space="preserve">
+    <value>Sending folder</value>
+  </data>
+  <data name="Receiving folder" xml:space="preserve">
+    <value>Receiving folder</value>
+  </data>
+  <data name=" content status" xml:space="preserve">
+    <value> content status</value>
+  </data>
+  <data name="Folder name" xml:space="preserve">
+    <value>Folder name</value>
+  </data>
+  <data name="Send received" xml:space="preserve">
+    <value>Send received</value>
+  </data>
+  <data name="Send to sub sites" xml:space="preserve">
+    <value>Send to sub sites</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="Are you sure you want to reset these templates?" xml:space="preserve">
+    <value>Are you sure you want to reset these templates?</value>
+  </data>
+  <data name="Reset templates" xml:space="preserve">
+    <value>Reset templates</value>
+  </data>
+  <data name="Grid" xml:space="preserve">
+    <value>Grid</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Selectable" xml:space="preserve">
+    <value>Selectable</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="Copy content type" xml:space="preserve">
+    <value>Copy content type</value>
+  </data>
+  <data name="'{0}' is being used by some folders!" xml:space="preserve">
+    <value>'{0}' is being used by some folders!</value>
+  </data>
+  <data name="Show content type relations" xml:space="preserve">
+    <value>Show content type relations</value>
+  </data>
+  <data name="Used in" xml:space="preserve">
+    <value>Used in</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Usage</value>
+  </data>
+  <data name=" - Database" xml:space="preserve">
+    <value> - Database</value>
+  </data>
+  <data name="Display name" xml:space="preserve">
+    <value>Display name</value>
+  </data>
+  <data name="Disallowed userkey chars. Replace chars that match this regular expression into hyphens" xml:space="preserve">
+    <value>Disallowed userkey chars. Replace chars that match this regular expression into hyphens</value>
+  </data>
+  <data name="Userkey escape chars" xml:space="preserve">
+    <value>Userkey escape chars</value>
+  </data>
+  <data name="Userkey hyphens" xml:space="preserve">
+    <value>Userkey hyphens</value>
+  </data>
+  <data name="The Enable versioning field is required." xml:space="preserve">
+    <value>The Enable versioning field is required.</value>
+  </data>
+  <data name="Enable versioning" xml:space="preserve">
+    <value>Enable versioning</value>
+  </data>
+  <data name="Enable content versioning" xml:space="preserve">
+    <value>Enable content versioning</value>
+  </data>
+  <data name="The Enable workflow field is required." xml:space="preserve">
+    <value>The Enable workflow field is required.</value>
+  </data>
+  <data name="Enable workflow" xml:space="preserve">
+    <value>Enable workflow</value>
+  </data>
+  <data name="Enable workflow control on folder content adding." xml:space="preserve">
+    <value>Enable workflow control on folder content adding.</value>
+  </data>
+  <data name="The Enable broadcasting field is required." xml:space="preserve">
+    <value>The Enable broadcasting field is required.</value>
+  </data>
+  <data name="Enable broadcasting" xml:space="preserve">
+    <value>Enable broadcasting</value>
+  </data>
+  <data name="Enable content broadcasting and sharing between content repositories." xml:space="preserve">
+    <value>Enable content broadcasting and sharing between content repositories.</value>
+  </data>
+  <data name="The Strict content permission field is required." xml:space="preserve">
+    <value>The Strict content permission field is required.</value>
+  </data>
+  <data name="Strict content permission" xml:space="preserve">
+    <value>Strict content permission</value>
+  </data>
+  <data name="User can not manage the content when the folder permission is empty." xml:space="preserve">
+    <value>User can not manage the content when the folder permission is empty.</value>
+  </data>
+  <data name="The Show hidden folders field is required." xml:space="preserve">
+    <value>The Show hidden folders field is required.</value>
+  </data>
+  <data name="Show hidden folders" xml:space="preserve">
+    <value>Show hidden folders</value>
+  </data>
+  <data name="Show the all folders including the hidden folders." xml:space="preserve">
+    <value>Show the all folders including the hidden folders.</value>
+  </data>
+  <data name="The repository is offline, please remove this file to take it online." xml:space="preserve">
+    <value>The repository is offline, please remove this file to take it online.</value>
+  </data>
+  <data name="You do not have any content database yet, click the button below to create a content database." xml:space="preserve">
+    <value>You do not have any content database yet, click the button below to create a content database.</value>
+  </data>
+  <data name="Are you sure you want to delete the membership?" xml:space="preserve">
+    <value>Are you sure you want to delete the membership?</value>
+  </data>
+  <data name="You do not have any membership yet, click the button below to create a membership." xml:space="preserve">
+    <value>You do not have any membership yet, click the button below to create a membership.</value>
+  </data>
+</root>
