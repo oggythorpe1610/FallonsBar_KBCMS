@@ -3795,3 +3795,156 @@ Thread information:
    at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
 
 --------------------------------------------------------------------------------------------------------
+Event code: 3005
+Event message: An unhandled exception has occurred.
+Event time: 10/24/2014 6:00:01 PM
+Event time (UTC): 10/24/2014 5:00:01 PM
+Event ID: 3c04e5f071834a24b65a358fc99c8b84
+Event sequence: 263
+Event occurrence: 14
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/51/ROOT-2-130586425175432413
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: c:\users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\
+    Machine name: WINDEV1
+
+Process information:
+    Process ID: 3628
+    Process name: iisexpress.exe
+    Account name: PARKERSOFT\martinosgathorpe
+
+Exception information:
+    Exception type: System.FormatException
+    Exception message: Input string was not in a correct format.
+
+Request information:
+    Request URL: http://localhost:58438/__browserLink/requestData/f68d437f45994f269cd1a1472fe8740d?version=2
+    Request path: /__browserLink/requestData/f68d437f45994f269cd1a1472fe8740d
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: PARKERSOFT\martinosgathorpe
+
+Thread information:
+    Thread ID: 163
+    Thread account name: PARKERSOFT\martinosgathorpe
+    Is impersonating: False
+    Stack trace:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(String format, Object arg0)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectorsForElementsWithTagName(List`1 elements, RenderedElement referenceElement, SelectorReferenceType referenceType, String selectorFormatString, SelectorGroupFunction[] groupMethods, Int32 startIndex)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectorsWorker(IEnumerable`1 elements, RenderedElement referenceElement, SelectorReferenceType referenceType, String selectorFormatString, SelectorGroupFunction[] groupMethods)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateGlobalScopeSelectors(IEnumerable`1 elements)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectors(IEnumerable`1 elements)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.ProcessDataIntoJsonObjects(IEnumerable`1 renderedOutputList, Boolean legacyJsonObjects)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.Tracing.RequestDataHttpHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 3005
+Event message: An unhandled exception has occurred.
+Event time: 10/24/2014 6:11:09 PM
+Event time (UTC): 10/24/2014 5:11:09 PM
+Event ID: 7cafe6d57cb3487d8b0b276b485cbddd
+Event sequence: 406
+Event occurrence: 15
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/51/ROOT-2-130586425175432413
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: c:\users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\
+    Machine name: WINDEV1
+
+Process information:
+    Process ID: 3628
+    Process name: iisexpress.exe
+    Account name: PARKERSOFT\martinosgathorpe
+
+Exception information:
+    Exception type: System.FormatException
+    Exception message: Input string was not in a correct format.
+
+Request information:
+    Request URL: http://localhost:58438/__browserLink/requestData/4086d29fbd5247809a72afdb11102031?version=2
+    Request path: /__browserLink/requestData/4086d29fbd5247809a72afdb11102031
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: PARKERSOFT\martinosgathorpe
+
+Thread information:
+    Thread ID: 211
+    Thread account name: PARKERSOFT\martinosgathorpe
+    Is impersonating: False
+    Stack trace:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(String format, Object arg0)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectorsForElementsWithTagName(List`1 elements, RenderedElement referenceElement, SelectorReferenceType referenceType, String selectorFormatString, SelectorGroupFunction[] groupMethods, Int32 startIndex)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectorsWorker(IEnumerable`1 elements, RenderedElement referenceElement, SelectorReferenceType referenceType, String selectorFormatString, SelectorGroupFunction[] groupMethods)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateGlobalScopeSelectors(IEnumerable`1 elements)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectors(IEnumerable`1 elements)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.ProcessDataIntoJsonObjects(IEnumerable`1 renderedOutputList, Boolean legacyJsonObjects)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.Tracing.RequestDataHttpHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 3005
+Event message: An unhandled exception has occurred.
+Event time: 10/24/2014 6:12:55 PM
+Event time (UTC): 10/24/2014 5:12:55 PM
+Event ID: 2491dc4c47f9405ba66d8b8c62c1aa20
+Event sequence: 412
+Event occurrence: 16
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/51/ROOT-2-130586425175432413
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: c:\users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\
+    Machine name: WINDEV1
+
+Process information:
+    Process ID: 3628
+    Process name: iisexpress.exe
+    Account name: PARKERSOFT\martinosgathorpe
+
+Exception information:
+    Exception type: System.FormatException
+    Exception message: Input string was not in a correct format.
+
+Request information:
+    Request URL: http://localhost:58438/__browserLink/requestData/100607d168114a74942d536063477ddf?version=2
+    Request path: /__browserLink/requestData/100607d168114a74942d536063477ddf
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: PARKERSOFT\martinosgathorpe
+
+Thread information:
+    Thread ID: 209
+    Thread account name: PARKERSOFT\martinosgathorpe
+    Is impersonating: False
+    Stack trace:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(String format, Object arg0)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectorsForElementsWithTagName(List`1 elements, RenderedElement referenceElement, SelectorReferenceType referenceType, String selectorFormatString, SelectorGroupFunction[] groupMethods, Int32 startIndex)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectorsWorker(IEnumerable`1 elements, RenderedElement referenceElement, SelectorReferenceType referenceType, String selectorFormatString, SelectorGroupFunction[] groupMethods)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateGlobalScopeSelectors(IEnumerable`1 elements)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectors(IEnumerable`1 elements)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.ProcessDataIntoJsonObjects(IEnumerable`1 renderedOutputList, Boolean legacyJsonObjects)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.Tracing.RequestDataHttpHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
