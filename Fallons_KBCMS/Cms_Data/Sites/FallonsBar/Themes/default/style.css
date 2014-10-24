@@ -36,8 +36,15 @@ body{
 }
 .logotext{
 	float:left;
-    text-indent: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3.875em;
+    font-weight: 800;
+    text-indent: 20px;
     text-shadow: 3px 3px 3px 3px #533015;
+    color: #FFFFCC;
+}
+.logotext p {
+    color: #FFFFCC;
 }
 .social-icons{
 	float:right;
