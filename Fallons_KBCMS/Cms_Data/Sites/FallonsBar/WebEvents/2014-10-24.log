@@ -3497,3 +3497,301 @@ Thread information:
    at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
 
 --------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: Object reference not set to an instance of an object.
+Event time: 10/24/2014 5:49:16 PM
+Event time (UTC): 10/24/2014 4:49:16 PM
+Event ID: 8610951d575845aeb6f748f0a6fc8073
+Event sequence: 98
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/51/ROOT-2-130586425175432413
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: c:\users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\
+    Machine name: WINDEV1
+
+Exception information:
+    Exception type: System.NullReferenceException
+    Exception message: Object reference not set to an instance of an object.
+
+Request information:
+    Request URL: /
+    Request path: /
+    User host address: ::1
+    User: 
+    Is authenticated: False
+    Authentication Type: 
+    Thread account name: PARKERSOFT\martinosgathorpe
+
+Thread information:
+    Thread ID: 206
+    Thread account name: PARKERSOFT\martinosgathorpe
+    Is impersonating: False
+    Stack trace:    at ASP._Page_Cms_Data_Sites_FallonsBar_Templates_Views_Main_Home_template_cshtml.Execute() in c:\Users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\Cms_Data\Sites\FallonsBar\Templates\Views\Main.Home\template.cshtml:line 5
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<>c__DisplayClass13.<RenderView>b__11()
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(ViewPosition viewPosition)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<RenderPositionContents>d__b.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, Func`1 defaultContentFunc)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, String defaultContent)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID)
+   at ASP._Page_Cms_Data_Sites_FallonsBar_Templates_Layouts_Main_template_cshtml.Execute() in c:\Users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\Cms_Data\Sites\FallonsBar\Templates\Layouts\Main\template.cshtml:line 33
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.View.FrontViewResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 3005
+Event message: An unhandled exception has occurred.
+Event time: 10/24/2014 5:49:16 PM
+Event time (UTC): 10/24/2014 4:49:16 PM
+Event ID: 6eb37eaabacc432c86ef7916a8d6a679
+Event sequence: 99
+Event occurrence: 9
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/51/ROOT-2-130586425175432413
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: c:\users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\
+    Machine name: WINDEV1
+
+Process information:
+    Process ID: 3628
+    Process name: iisexpress.exe
+    Account name: PARKERSOFT\martinosgathorpe
+
+Exception information:
+    Exception type: System.NullReferenceException
+    Exception message: Object reference not set to an instance of an object.
+
+Request information:
+    Request URL: http://localhost:58438/
+    Request path: /
+    User host address: ::1
+    User: 
+    Is authenticated: False
+    Authentication Type: 
+    Thread account name: PARKERSOFT\martinosgathorpe
+
+Thread information:
+    Thread ID: 206
+    Thread account name: PARKERSOFT\martinosgathorpe
+    Is impersonating: False
+    Stack trace:    at ASP._Page_Cms_Data_Sites_FallonsBar_Templates_Views_Main_Home_template_cshtml.Execute() in c:\Users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\Cms_Data\Sites\FallonsBar\Templates\Views\Main.Home\template.cshtml:line 5
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<>c__DisplayClass13.<RenderView>b__11()
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(ViewPosition viewPosition)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<RenderPositionContents>d__b.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, Func`1 defaultContentFunc)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, String defaultContent)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID)
+   at ASP._Page_Cms_Data_Sites_FallonsBar_Templates_Layouts_Main_template_cshtml.Execute() in c:\Users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\Cms_Data\Sites\FallonsBar\Templates\Layouts\Main\template.cshtml:line 33
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.View.FrontViewResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 3005
+Event message: An unhandled exception has occurred.
+Event time: 10/24/2014 5:50:05 PM
+Event time (UTC): 10/24/2014 4:50:05 PM
+Event ID: e20913f8504241b7bb045ca2cce5dda4
+Event sequence: 144
+Event occurrence: 11
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/51/ROOT-2-130586425175432413
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: c:\users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\
+    Machine name: WINDEV1
+
+Process information:
+    Process ID: 3628
+    Process name: iisexpress.exe
+    Account name: PARKERSOFT\martinosgathorpe
+
+Exception information:
+    Exception type: System.FormatException
+    Exception message: Input string was not in a correct format.
+
+Request information:
+    Request URL: http://localhost:58438/__browserLink/requestData/7e1db6822cb6410991bea9822b4f3e33?version=2
+    Request path: /__browserLink/requestData/7e1db6822cb6410991bea9822b4f3e33
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: PARKERSOFT\martinosgathorpe
+
+Thread information:
+    Thread ID: 209
+    Thread account name: PARKERSOFT\martinosgathorpe
+    Is impersonating: False
+    Stack trace:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(String format, Object arg0)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectorsForElementsWithTagName(List`1 elements, RenderedElement referenceElement, SelectorReferenceType referenceType, String selectorFormatString, SelectorGroupFunction[] groupMethods, Int32 startIndex)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectorsWorker(IEnumerable`1 elements, RenderedElement referenceElement, SelectorReferenceType referenceType, String selectorFormatString, SelectorGroupFunction[] groupMethods)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateGlobalScopeSelectors(IEnumerable`1 elements)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectors(IEnumerable`1 elements)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.ProcessDataIntoJsonObjects(IEnumerable`1 renderedOutputList, Boolean legacyJsonObjects)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.Tracing.RequestDataHttpHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 3005
+Event message: An unhandled exception has occurred.
+Event time: 10/24/2014 5:50:53 PM
+Event time (UTC): 10/24/2014 4:50:53 PM
+Event ID: 46d0ce1169ce451e8ba2b170e82fb57d
+Event sequence: 165
+Event occurrence: 13
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/51/ROOT-2-130586425175432413
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: c:\users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\
+    Machine name: WINDEV1
+
+Process information:
+    Process ID: 3628
+    Process name: iisexpress.exe
+    Account name: PARKERSOFT\martinosgathorpe
+
+Exception information:
+    Exception type: System.FormatException
+    Exception message: Input string was not in a correct format.
+
+Request information:
+    Request URL: http://localhost:58438/__browserLink/requestData/6c703c0c9b0c40dfb420a5f6100dfa52?version=2
+    Request path: /__browserLink/requestData/6c703c0c9b0c40dfb420a5f6100dfa52
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: PARKERSOFT\martinosgathorpe
+
+Thread information:
+    Thread ID: 198
+    Thread account name: PARKERSOFT\martinosgathorpe
+    Is impersonating: False
+    Stack trace:    at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(String format, Object arg0)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectorsForElementsWithTagName(List`1 elements, RenderedElement referenceElement, SelectorReferenceType referenceType, String selectorFormatString, SelectorGroupFunction[] groupMethods, Int32 startIndex)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectorsWorker(IEnumerable`1 elements, RenderedElement referenceElement, SelectorReferenceType referenceType, String selectorFormatString, SelectorGroupFunction[] groupMethods)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateGlobalScopeSelectors(IEnumerable`1 elements)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectors(IEnumerable`1 elements)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.ProcessDataIntoJsonObjects(IEnumerable`1 renderedOutputList, Boolean legacyJsonObjects)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.Tracing.RequestDataHttpHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
