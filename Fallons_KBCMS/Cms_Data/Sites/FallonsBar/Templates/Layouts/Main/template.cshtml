@@ -1,0 +1,44 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  @{
+  if(Html.FrontHtml().HtmlTitle().ToString()==""){
+ <title>Dream Live Website Template | Home :: W3layouts</title>
+  }else{
+  @Html.FrontHtml().HtmlTitle()
+  }
+  }
+@Html.FrontHtml().Meta()
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+@Html.FrontHtml().RegisterStyles() 
+@Html.FrontHtml().RegisterScripts() 
+  <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+ </head>
+<body>
+	<!----start-header----->
+	 <div class="header">
+     @Html.FrontHtml().RenderView("Header")
+	</div>
+   <!----End-header----->
+	       <!------ Slider ------------>
+	    <div class="slider">
+       @Html.FrontHtml().Position("Home_Slider")
+   	    </div>
+		<!------End Slider ------------>
+		 <!---start-content---->
+		 @Html.FrontHtml().Position("Main")
+		 <!---End-content---->
+		 <!---start-footer---->
+		  <div class="footer">
+		   @Html.FrontHtml().RenderView("Footer")
+	     </div>
+	    <div class="copy-right">
+	    @Html.FrontHtml().RenderView("Copy_Right")	
+	    </div>
+		 <!---End-footer---->
+	</body>
+</html>

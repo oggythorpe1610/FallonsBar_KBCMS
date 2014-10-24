@@ -1,0 +1,243 @@
+Event code: 3007
+Event message: A compilation error has occurred.
+Event time: 2013-12-17 18:24:35
+Event time (UTC): 2013-12-17 10:24:35
+Event ID: 3a858b7e75b7455d9137205464ac8a2f
+Event sequence: 466
+Event occurrence: 1
+Event detail code: 0
+
+Application information:
+    Application domain: 49e8a20d-1-130317382679412413
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: E:\Software\Study\Kooboo_CMS4.2.1\Kooboo_CMS\
+    Machine name: PC201308011007
+
+Process information:
+    Process ID: 4572
+    Process name: WebDev.WebServer40.exe
+    Account name: PC201308011007\Administrator
+
+Exception information:
+    Exception type: System.Web.HttpCompileException
+    Exception message: e:\Software\Study\Kooboo_CMS4.2.1\Kooboo_CMS\Cms_Data\Sites\dream_live-web\Templates\Views\Footer\template.cshtml(17): error CS0103: The name 'Lorem' does not exist in the current context
+
+Request information:
+    Request URL: http://localhost:2589/Sites/PageDesign/Design?siteName=dream_live-web&layout=Main&draft=False
+    Request path: /Sites/PageDesign/Design
+    User host address: 127.0.0.1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: PC201308011007\Administrator
+
+Thread information:
+    Thread ID: 44
+    Thread account name: PC201308011007\Administrator
+    Is impersonating: False
+    Stack trace:    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName)
+   at ASP._Page_Cms_Data_Sites_dream_live_web_Templates_Layouts_Main_template_cshtml.Execute() in e:\Software\Study\Kooboo_CMS4.2.1\Kooboo_CMS\Cms_Data\Sites\dream_live-web\Templates\Layouts\Main\template.cshtml:line 37
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.View.FrontViewResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: The required anti-forgery form field "__RequestVerificationToken" is not present.
+Event time: 2013-12-17 19:29:11
+Event time (UTC): 2013-12-17 11:29:11
+Event ID: 90c73d3944c845aba5caef0709fb9998
+Event sequence: 764
+Event detail code: 0
+
+Application information:
+    Application domain: 49e8a20d-2-130317507231736399
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: E:\Software\Study\Kooboo_CMS4.2.1\Kooboo_CMS\
+    Machine name: PC201308011007
+
+Exception information:
+    Exception type: System.Web.Mvc.HttpAntiForgeryException
+    Exception message: The required anti-forgery form field "__RequestVerificationToken" is not present.
+
+Request information:
+    Request URL: /dev~dream_live-web/Kooboo-Submit/ContactUs
+    Request path: /dev~dream_live-web/Kooboo-Submit/ContactUs
+    User host address: 127.0.0.1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: PC201308011007\Administrator
+
+Thread information:
+    Thread ID: 45
+    Thread account name: PC201308011007\Administrator
+    Is impersonating: False
+    Stack trace:    at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+   at System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   at System.Web.Helpers.AntiForgery.Validate()
+   at Kooboo.CMS.Sites.Controllers.SubmissionController.Submit(String submissionName)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 3005
+Event message: An unhandled exception has occurred.
+Event time: 2013-12-17 19:29:11
+Event time (UTC): 2013-12-17 11:29:11
+Event ID: c071bbacbd864951b9059a0a01af2bfa
+Event sequence: 765
+Event occurrence: 1
+Event detail code: 0
+
+Application information:
+    Application domain: 49e8a20d-2-130317507231736399
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: E:\Software\Study\Kooboo_CMS4.2.1\Kooboo_CMS\
+    Machine name: PC201308011007
+
+Process information:
+    Process ID: 4572
+    Process name: WebDev.WebServer40.exe
+    Account name: PC201308011007\Administrator
+
+Exception information:
+    Exception type: System.Web.Mvc.HttpAntiForgeryException
+    Exception message: The required anti-forgery form field "__RequestVerificationToken" is not present.
+
+Request information:
+    Request URL: http://localhost:2589/dev~dream_live-web/Kooboo-Submit/ContactUs
+    Request path: /dev~dream_live-web/Kooboo-Submit/ContactUs
+    User host address: 127.0.0.1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: PC201308011007\Administrator
+
+Thread information:
+    Thread ID: 45
+    Thread account name: PC201308011007\Administrator
+    Is impersonating: False
+    Stack trace:    at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+   at System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
+   at System.Web.Helpers.AntiForgery.Validate()
+   at Kooboo.CMS.Sites.Controllers.SubmissionController.Submit(String submissionName)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: The item already exists.
+Event time: 2013-12-17 19:59:02
+Event time (UTC): 2013-12-17 11:59:02
+Event ID: 322e5e7871b64395a316882a74ba2e06
+Event sequence: 135
+Event detail code: 0
+
+Application information:
+    Application domain: 49e8a20d-3-130317546733355762
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: E:\Software\Study\Kooboo_CMS4.2.1\Kooboo_CMS\
+    Machine name: PC201308011007
+
+Exception information:
+    Exception type: Kooboo.CMS.Content.ItemAlreadyExistsException
+    Exception message: The item already exists.
+
+Request information:
+    Request URL: /Contents/TextFolder/Create?repositoryName=dream_live_web&siteName=dream_live-web&return=%2FContents%2FTextFolder%3FrepositoryName%3Ddream_live_web%26siteName%3Ddream_live-web
+    Request path: /Contents/TextFolder/Create
+    User host address: 127.0.0.1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: PC201308011007\Administrator
+
+Thread information:
+    Thread ID: 43
+    Thread account name: PC201308011007\Administrator
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Content.Services.ManagerBase`2.Add(Repository repository, T item)
+   at Kooboo.CMS.Web.Areas.Contents.Controllers.TextFolderController.<>c__DisplayClass7.<Create>b__5(JsonResultData resultData)
+   at Kooboo.CMS.Common.JsonResultEntryExtensions.RunWithTry(JsonResultData jsonResultEntry, Action`1 runMethod)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------

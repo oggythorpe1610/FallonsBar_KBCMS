@@ -1,0 +1,13 @@
+﻿<div class="menus">	
+  <div class="wrap">			       	
+    <div class="menus-details">
+      <img src="@Url.Content(ViewBag.Menus_Detail.Img)">
+      <h3 @ViewHelper.Edit(ViewBag.Menus_Detail,"Title")>
+        @ViewBag.Menus_Detail.Title
+      </h3>
+      <div @ViewHelper.Edit(ViewBag.Menus_Detail,"Detail") class="detail-content">
+        @Html.Raw(ViewBag.Menus_Detail.Detail)  
+      </div>
+    </div>
+  </div>  
+</div>

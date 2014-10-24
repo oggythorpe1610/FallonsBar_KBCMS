@@ -1,0 +1,25 @@
+﻿<div class="wrap">
+  <div class="footer-grid">
+    <h3>@("Location".Label())</h3>
+    <div class="address">
+      @Html.FrontHtml().RenderHtmlBlock("Location")
+    </div>
+  </div>
+  <div class="footer-grid">
+    <h3>@("About".Label())</h3>
+    <p>@("Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam".Label())</p>
+  </div>
+  @*<div class="footer-grid center-grid">
+    <h3>@("Recent posts".Label())</h3>
+    <ul>
+      @foreach (var item in ViewBag.Recent_Posts){
+      <li><a href="@Url.FrontUrl().PageUrl("Blog/Detail",new{UserKey = item.UserKey})" @ViewHelper.Edit(item,"Title")>@item.Title</a></li>
+      }
+    </ul>
+  </div>		
+  <div class="footer-grid">
+    <h3>@("DID YOU KNOW?".Label())</h3>
+    <p>@("Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam".Label())</p>
+  </div>*@
+  <div class="clear"> </div>
+</div>

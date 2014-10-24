@@ -1,0 +1,24 @@
+﻿ <div class="about_desc">		
+		       	       <div class="wrap">		 
+					            <div class="about-topgrid1">
+                                  <h3>@("Who We Are".Label())</h3>
+                               <img src="@Url.FrontUrl().FileUrl("images/welcome_img1.jpg")" title="name" alt="" />
+                                 @Html.FrontHtml().RenderHtmlBlock("WhoWeAre")  
+								</div>					           
+					              <div class="about-services">
+									@Html.FrontHtml().RenderHtmlBlock("OurServices")
+
+
+									<ul>
+								    @foreach (var item in ViewBag.Services_List){
+                                      <li><a href="@Url.FrontUrl().PageUrl("Services/Detail",new{UserKey = item.UserKey})">@item.Title</a></li>
+                                }
+										
+									</ul>
+								</div>
+								<div class="about-histore">
+                                @Html.FrontHtml().RenderHtmlBlock("Our_History")
+								</div>
+							<div class="clear"> </div>
+			           </div>
+		   			</div>

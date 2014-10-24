@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</value>
+  </data>
+  <data name="DID YOU KNOW?" xml:space="preserve">
+    <value>DID YOU KNOW?</value>
+  </data>
+  <data name="Design by" xml:space="preserve">
+    <value>Design by</value>
+  </data>
+  <data name="CALL" xml:space="preserve">
+    <value>CALL</value>
+  </data>
+  <data name="(800) 234-5678" xml:space="preserve">
+    <value>(01782) 719077</value>
+  </data>
+  <data name="Contact Us" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="NAME" xml:space="preserve">
+    <value>NAME</value>
+  </data>
+  <data name="E-MAIL" xml:space="preserve">
+    <value>E-MAIL</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SUBJECT" xml:space="preserve">
+    <value>SUBJECT</value>
+  </data>
+  <data name="500 Lorem Ipsum Dolor Sit," xml:space="preserve">
+    <value>55 High Street,</value>
+  </data>
+  <data name="22-56-2-9 Sit Amet, Lorem," xml:space="preserve">
+    <value>Newcastle-under-Lyme,</value>
+  </data>
+  <data name="USA" xml:space="preserve">
+    <value>Staffordshire</value>
+  </data>
+  <data name="Phone:(00) 222 666 444" xml:space="preserve">
+    <value>Phone: (01782) 719077</value>
+  </data>
+  <data name="Fax: (000) 000 00 00 0" xml:space="preserve">
+    <value>ST5 1PN</value>
+  </data>
+  <data name="Email:" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="info(at)mycompany.com" xml:space="preserve">
+    <value>info@fallons-bar.co.uk</value>
+  </data>
+  <data name="Beauty Treatments" xml:space="preserve">
+    <value>Beauty Treatments</value>
+  </data>
+  <data name="Blog Detail" xml:space="preserve">
+    <value>Blog Detail</value>
+  </data>
+  <data name="Who We Are" xml:space="preserve">
+    <value>Who We Are</value>
+  </data>
+  <data name="Recent posts" xml:space="preserve">
+    <value>Recent posts</value>
+  </data>
+  <data name="info@mycompany.com" xml:space="preserve">
+    <value>info@fallons-bar.co.uk</value>
+  </data>
+</root>

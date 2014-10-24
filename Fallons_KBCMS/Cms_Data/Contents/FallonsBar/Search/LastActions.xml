@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfLastAction xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Kooboo.CMS.Search.Models">
+	<LastAction>
+		<FolderName>Services</FolderName>
+		<ContentSummary>Special Events</ContentSummary>
+		<Action>Update</Action>
+		<UtcActionDate>2014-10-24T11:17:25.8656262Z</UtcActionDate>
+	</LastAction>
+	<LastAction>
+		<FolderName>Services</FolderName>
+		<ContentSummary>Every Saturday Night</ContentSummary>
+		<Action>Update</Action>
+		<UtcActionDate>2014-10-24T11:17:11.5940151Z</UtcActionDate>
+	</LastAction>
+	<LastAction>
+		<FolderName>Services</FolderName>
+		<ContentSummary>Every Friday Night</ContentSummary>
+		<Action>Update</Action>
+		<UtcActionDate>2014-10-24T11:16:54.7467758Z</UtcActionDate>
+	</LastAction>
+	<LastAction>
+		<FolderName>Services</FolderName>
+		<ContentSummary>Evening Menu</ContentSummary>
+		<Action>Update</Action>
+		<UtcActionDate>2014-10-24T11:16:21.2730871Z</UtcActionDate>
+	</LastAction>
+	<LastAction>
+		<FolderName>Services</FolderName>
+		<ContentSummary>Lunchtime Menu</ContentSummary>
+		<Action>Update</Action>
+		<UtcActionDate>2014-10-24T11:16:09.8829045Z</UtcActionDate>
+	</LastAction>
+</ArrayOfLastAction>

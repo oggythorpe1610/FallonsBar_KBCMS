@@ -1,0 +1,33 @@
+﻿<div class="whatson">	
+  <div class="wrap">			       	
+    <div class="section_wo group_wo whatson">
+      @foreach (var item in ViewBag.WhatsOn){
+      <div class="grid_1_of_3 images_1_of_3 top_grid">
+        <h3 @ViewHelper.Edit(item,"Title")>@item.Title </h3>
+        <img src="@item.Img" alt="" />
+        <p @ViewHelper.Edit(item,"Summary")>@item.Summary</p>
+        <div class="button"><span><a href="@Url.FrontUrl().PageUrl("Services/Detail",new{UserKey = item.UserKey})">Read More</a></span></div>
+      </div>
+      }                      
+    </div>
+    @*<div class="section group example">
+      <div class="col_1_of_2 span_1_of_2">
+        @Html.FrontHtml().RenderHtmlBlock("Highlights")
+      </div>
+      <div class="col_1_of_2 span_1_of_2">
+        <h3>@("Beauty Treatments".Label())</h3>
+        @foreach (var item in ViewBag.Beauty_Treatments){
+        <div class="hair_treatment">
+          <div class="treatment_img">
+            <img src="@item.Img" alt="">
+          </div>
+          <div class="treatment-desc">
+            <p @ViewHelper.Edit(item,"Summary")>@item.Summary</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+        }	
+      </div>
+    </div>*@
+  </div>  
+</div>

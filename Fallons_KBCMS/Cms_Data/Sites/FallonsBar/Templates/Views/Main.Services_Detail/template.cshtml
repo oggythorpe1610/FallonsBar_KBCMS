@@ -1,0 +1,13 @@
+﻿  <div class="services">	
+	<div class="wrap">			       	
+<div class="services-details">
+    <img src="@Url.Content(ViewBag.Services_Detail.Img)">
+              <h3 @ViewHelper.Edit(ViewBag.Services_Detail,"Title")>
+         @ViewBag.Services_Detail.Title
+    </h3>
+    <div @ViewHelper.Edit(ViewBag.Services_Detail,"Detail") class="detail-content">
+         @Html.Raw(ViewBag.Services_Detail.Detail)  
+    </div>
+   </div>
+     	</div>  
+    </div>

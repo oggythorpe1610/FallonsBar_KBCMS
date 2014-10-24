@@ -1,0 +1,19 @@
+﻿ <div class="blog">	
+		      <div class="wrap">
+                <div class="bolog_content">
+			 @foreach (var item in ViewBag.Bolg){
+<div class="blog_list">
+				<h4><a href="@Url.FrontUrl().PageUrl("Blog/Detail",new{UserKey = item.UserKey})" @ViewHelper.Edit(item,"Title")>@item.Title</a></h4>
+				<div class="blog_para">
+					<p class="para1"><a href="" rel="lightbox"><img src="@item.Img" alt="" @ViewHelper.Edit(item,"Summary")></a>@item.Summary</p>
+					<div class="button">
+                      <a href="@Url.FrontUrl().PageUrl("Blog/Detail",new{UserKey = item.UserKey})">Read More</a>
+					</div>
+					<div class="clear"></div>
+				</div>
+			 </div>
+    }
+
+			</div>
+     	</div>  
+</div>
