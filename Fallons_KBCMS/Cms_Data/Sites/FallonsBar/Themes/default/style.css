@@ -575,6 +575,221 @@ body{
 .hair_treatment{
 	margin:20px 0;
 }
+
+/***********--menus--****************/
+.menus{
+	background:#FFF;
+	padding:30px 0;
+}
+.menus-top{
+	border-bottom: 1px dotted #999;
+	padding: 20px 0;
+}
+.section_menus {
+	clear: both;
+	padding: 80px;
+	margin: 0px;
+}
+.group_menus:before,
+.group_menus:after {
+    content:"";
+    display:table;
+}
+.group_menus:after {
+    clear:both;
+}
+.group_menus {
+    zoom:1;
+}
+.col_1_of_4_menus{
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col_1_of_4_menus:first-child { margin-left: 0; } /* all browsers except IE6 and lower */	
+.span_1_of_4_menus {
+	width: 20.8%;
+	padding:1.5%; 
+}
+.span_1_of_4_menus h3{
+	text-transform: uppercase;
+	color:#F86C1B;
+	margin: 5px 0px;
+	padding-bottom: 8px;
+	font-family: 'Open Sans', sans-serif;
+	line-height:25px;
+	font-size:1.5em;
+}
+.span_1_of_4_menus h3 span{
+	color:#4D4D4D;
+	font-size:0.8em;
+}
+.span_1_of_4_menus p{
+	font-size: 0.85em;
+	color: #888;
+	line-height: 1.8em;
+	padding:5px 0;
+}
+.menus_list li a{
+	 font-size: 0.8em;
+	 color:#888;
+	 display:block;
+	 padding: 8px 0px 8px 15px;
+	 background:url(images/marker.png) no-repeat 0;
+	 font-family: 'Open Sans', sans-serif;
+}
+.menus_list li a:hover{
+	color:#555;
+}
+.col_1_of_2_menus{
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col_1_of_2_menus:first-child { margin-left: 0; }
+.span_1_of_2_menus {
+	width: 46.2%;
+	padding:1.5%;
+}
+.span_1_of_2_menus  h3{
+	font-size: 1.6em;
+	text-transform: uppercase;
+	color:#4D4D4D;
+	margin: 5px 0px;
+	padding-bottom: 8px;
+	font-family: 'Open Sans', sans-serif;
+	line-height:25px;
+}
+.span_1_of_2_menus  p span{
+	font-size:1em;
+	padding:5px  0;
+	color:#949494;
+	line-height: 1.8em;
+}
+.span_1_of_2_menus  p{
+	font-size:0.85em;
+	 color:#A2A2A2;
+	line-height: 1.8em; 
+}
+.span_1_of_2_menus h4 span{
+	color:#F86C1B;
+	padding-right:5px;
+}
+.span_1_of_2_menus h4{
+	font-size:1em;
+	color:#777;
+    text-transform:uppercase;
+    font-family: 'Open Sans', sans-serif;
+    margin-top:15px;
+}
+
+/***********--whatson--****************/
+.whatson{
+	background:#FFF;
+	padding:30px 0;
+}
+.whatson-top{
+	border-bottom: 1px dotted #999;
+	padding: 20px 0;
+}
+.section_wo {
+	clear: both;
+	padding: 80px;
+	margin: 0px;
+}
+.group_wo:before,
+.group_wo:after {
+    content:"";
+    display:table;
+}
+.group_wo:after {
+    clear:both;
+}
+.group_wo {
+    zoom:1;
+}
+.col_1_of_4_wo{
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col_1_of_4_wo:first-child { margin-left: 0; } /* all browsers except IE6 and lower */	
+.span_1_of_4_wo {
+	width: 20.8%;
+	padding:1.5%; 
+}
+.span_1_of_4_wo h3{
+	text-transform: uppercase;
+	color:#F86C1B;
+	margin: 5px 0px;
+	padding-bottom: 8px;
+	font-family: 'Open Sans', sans-serif;
+	line-height:25px;
+	font-size:1.5em;
+}
+.span_1_of_4_wo h3 span{
+	color:#4D4D4D;
+	font-size:0.8em;
+}
+.span_1_of_4_wo p{
+	font-size: 0.85em;
+	color: #888;
+	line-height: 1.8em;
+	padding:5px 0;
+}
+.whatson_list li a{
+	 font-size: 0.8em;
+	 color:#888;
+	 display:block;
+	 padding: 8px 0px 8px 15px;
+	 background:url(images/marker.png) no-repeat 0;
+	 font-family: 'Open Sans', sans-serif;
+}
+.whatson_list li a:hover{
+	color:#555;
+}
+.col_1_of_2_wo{
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col_1_of_2_wo:first-child { margin-left: 0; }
+.span_1_of_2_wo {
+	width: 46.2%;
+	padding:1.5%;
+}
+.span_1_of_2_wo  h3{
+	font-size: 1.6em;
+	text-transform: uppercase;
+	color:#4D4D4D;
+	margin: 5px 0px;
+	padding-bottom: 8px;
+	font-family: 'Open Sans', sans-serif;
+	line-height:25px;
+}
+.span_1_of_2_wo  p span{
+	font-size:1em;
+	padding:5px  0;
+	color:#949494;
+	line-height: 1.8em;
+}
+.span_1_of_2_wo  p{
+	font-size:0.85em;
+	 color:#A2A2A2;
+	line-height: 1.8em; 
+}
+.span_1_of_2 h4_wo span{
+	color:#F86C1B;
+	padding-right:5px;
+}
+.span_1_of_2_wo h4{
+	font-size:1em;
+	color:#777;
+    text-transform:uppercase;
+    font-family: 'Open Sans', sans-serif;
+    margin-top:15px;
+}
+
 /********************* start blog *********************************/
 .blog
 {

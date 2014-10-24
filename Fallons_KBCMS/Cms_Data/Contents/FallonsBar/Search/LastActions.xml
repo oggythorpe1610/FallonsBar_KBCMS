@@ -2,32 +2,32 @@
 <ArrayOfLastAction xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Kooboo.CMS.Search.Models">
 	<LastAction>
 		<FolderName>Services</FolderName>
-		<ContentSummary>Special Events</ContentSummary>
+		<ContentSummary>SERVICE 3</ContentSummary>
 		<Action>Update</Action>
-		<UtcActionDate>2014-10-24T11:17:25.8656262Z</UtcActionDate>
+		<UtcActionDate>2014-10-24T12:25:33.7844106Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
 		<FolderName>Services</FolderName>
-		<ContentSummary>Every Saturday Night</ContentSummary>
+		<ContentSummary>SERVICE 2</ContentSummary>
 		<Action>Update</Action>
-		<UtcActionDate>2014-10-24T11:17:11.5940151Z</UtcActionDate>
+		<UtcActionDate>2014-10-24T12:25:21.5525353Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
 		<FolderName>Services</FolderName>
-		<ContentSummary>Every Friday Night</ContentSummary>
+		<ContentSummary>SERVICE 1</ContentSummary>
 		<Action>Update</Action>
-		<UtcActionDate>2014-10-24T11:16:54.7467758Z</UtcActionDate>
+		<UtcActionDate>2014-10-24T12:25:12.8588077Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>Services</FolderName>
+		<FolderName>Menus</FolderName>
 		<ContentSummary>Evening Menu</ContentSummary>
-		<Action>Update</Action>
-		<UtcActionDate>2014-10-24T11:16:21.2730871Z</UtcActionDate>
+		<Action>Delete</Action>
+		<UtcActionDate>2014-10-24T12:24:47.577772Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>Services</FolderName>
+		<FolderName>Menus</FolderName>
 		<ContentSummary>Lunchtime Menu</ContentSummary>
-		<Action>Update</Action>
-		<UtcActionDate>2014-10-24T11:16:09.8829045Z</UtcActionDate>
+		<Action>Delete</Action>
+		<UtcActionDate>2014-10-24T12:24:36.8950877Z</UtcActionDate>
 	</LastAction>
 </ArrayOfLastAction>

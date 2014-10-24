@@ -1865,4 +1865,28 @@ Are you sure you want to use this size?</value>
   <data name="Sign in to the CMS and create your first Kooboo website, the default login is: &lt;strong&gt;admin/admin&lt;/strong&gt;" xml:space="preserve">
     <value>Sign in to the CMS and create your first Kooboo website, the default login is: &lt;strong&gt;admin/admin&lt;/strong&gt;</value>
   </data>
+  <data name="Path" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="The name already exists." xml:space="preserve">
+    <value>The name already exists.</value>
+  </data>
+  <data name="Invalid file name." xml:space="preserve">
+    <value>Invalid file name.</value>
+  </data>
+  <data name="New file" xml:space="preserve">
+    <value>New file</value>
+  </data>
+  <data name="Root" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>FileName</value>
+  </data>
+  <data name="Data format" xml:space="preserve">
+    <value>Data format</value>
+  </data>
+  <data name="The site display name" xml:space="preserve">
+    <value>The site display name</value>
+  </data>
 </root>
