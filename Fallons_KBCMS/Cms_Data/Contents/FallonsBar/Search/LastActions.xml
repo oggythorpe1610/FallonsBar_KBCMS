@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfLastAction xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Kooboo.CMS.Search.Models">
 	<LastAction>
-		<FolderName>Home_Sliders</FolderName>
-		<ContentSummary>/Cms_Data/Contents/FallonsBar/Folders/Home_Sliders/~contents/CT22NUZWJUEHFS5B/SlideShow_1.jpg</ContentSummary>
-		<Action>Add</Action>
-		<UtcActionDate>2014-10-24T16:44:00.6984281Z</UtcActionDate>
+		<FolderName>Blog</FolderName>
+		<ContentSummary>Halloween Party This Week!!!</ContentSummary>
+		<Action>Update</Action>
+		<UtcActionDate>2014-10-27T12:46:51.8107231Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>Home_Sliders</FolderName>
-		<ContentSummary>/Cms_Data/Contents/FallonsBar/Folders/Home_Sliders/~contents/PVEJTKLGSYGUB9TK/SlideShow_2.jpeg</ContentSummary>
-		<Action>Add</Action>
-		<UtcActionDate>2014-10-24T16:43:47.0191101Z</UtcActionDate>
+		<FolderName>Blog</FolderName>
+		<ContentSummary>Lorem ipsum dolor sit amet consectetur adipisicing elit</ContentSummary>
+		<Action>Delete</Action>
+		<UtcActionDate>2014-10-27T12:40:54.4132021Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>Home_Sliders</FolderName>
-		<ContentSummary>/Cms_Data/Contents/FallonsBar/Folders/Home_Sliders/~contents/EPT2LFN87KZHRVXV/SlideShow_3.jpeg</ContentSummary>
-		<Action>Add</Action>
-		<UtcActionDate>2014-10-24T16:43:37.845365Z</UtcActionDate>
+		<FolderName>Blog</FolderName>
+		<ContentSummary>Lorem ipsum dolor sit amet consectetur adipisicing elit</ContentSummary>
+		<Action>Delete</Action>
+		<UtcActionDate>2014-10-27T12:40:54.2040492Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>Home_Sliders</FolderName>
-		<ContentSummary>/Cms_Data/Contents/FallonsBar/Folders/Home_Sliders/~contents/TKXJTVY638P7EHQN/SlideShow_4.jpg</ContentSummary>
-		<Action>Add</Action>
-		<UtcActionDate>2014-10-24T16:43:07.6990497Z</UtcActionDate>
+		<FolderName>Menus</FolderName>
+		<ContentSummary>Lunchtime Menu</ContentSummary>
+		<Action>Update</Action>
+		<UtcActionDate>2014-10-27T10:42:08.6359601Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>Home_Sliders</FolderName>
-		<ContentSummary>/Cms_Data/Contents/FallonsBar/Folders/Home_Sliders/~contents/9KQ25CVKC8Q7TV62/SlideShow_5.jpeg</ContentSummary>
-		<Action>Add</Action>
-		<UtcActionDate>2014-10-24T16:42:58.5191563Z</UtcActionDate>
+		<FolderName>Menus</FolderName>
+		<ContentSummary>Lunchtime Menu</ContentSummary>
+		<Action>Update</Action>
+		<UtcActionDate>2014-10-27T10:41:39.3402886Z</UtcActionDate>
 	</LastAction>
 </ArrayOfLastAction>

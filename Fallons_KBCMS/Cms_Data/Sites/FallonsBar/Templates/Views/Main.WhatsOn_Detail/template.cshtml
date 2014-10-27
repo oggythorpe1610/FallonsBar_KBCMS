@@ -3,7 +3,7 @@
 <div class="whatson-details">
     <img src="@Url.Content(ViewBag.WhatsOn_Detail.Img)">
               <h3 @ViewHelper.Edit(ViewBag.WhatsOn_Detail,"Title")>
-         @ViewBag.Services_Detail.Title
+         @ViewBag.WhatsOn_Detail.Title
     </h3>
     <div @ViewHelper.Edit(ViewBag.WhatsOn_Detail,"Detail") class="detail-content">
          @Html.Raw(ViewBag.WhatsOn_Detail.Detail)  

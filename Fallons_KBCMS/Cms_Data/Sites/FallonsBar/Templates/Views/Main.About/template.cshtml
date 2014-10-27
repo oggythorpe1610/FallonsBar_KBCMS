@@ -5,32 +5,69 @@
       <img src="@Url.FrontUrl().FileUrl("images/welcome_img1.jpg")" title="name" alt="" />
       @Html.FrontHtml().RenderHtmlBlock("WhoWeAre")  
     </div>
-    <a href="//gb.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="none" data-pin-color="red" data-pin-height="28"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" /></a>
-    <!-- Please call pinit.js only once per page -->
-    <script type="text/javascript" async src="//assets.pinterest.com/js/pinit.js"></script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>    
-<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-    @*<div class="about-services">
-      @Html.FrontHtml().RenderHtmlBlock("OurServices")
-      
-      
-      <ul>
-        @foreach (var item in ViewBag.Services_List){
-        <li><a href="@Url.FrontUrl().PageUrl("Services/Detail",new{UserKey = item.UserKey})">@item.Title</a></li>
-        }}
-        
-      </ul>
-    </div>*@
     <div class="about-histore">
       @Html.FrontHtml().RenderHtmlBlock("Our_History")
+    </div>
+    <div class="about-services">
+        @* social buttons *@
+        <table>
+            <tr>
+                <td>
+                    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="20" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true" data-size="large"></div>
+                </td>
+                <td>
+                    <a class="twitter-share-button"
+                       href="https://twitter.com/share"
+                       data-url="https://dev.twitter.com/web/tweet-button"
+                       data-via="fallonsbar"
+                       data-text="Fallons Bar"
+                       data-related="fallonsbar:Fallons Bar"
+                       data-count="vertical">
+                        Tweet
+                    </a>
+                </td>
+                <td>
+                    @*<a href="//gb.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="none" data-pin-color="red" data-pin-height="28"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" /></a>*@
+                    <a href="//gb.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="above" data-pin-color="red" data-pin-height="28"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" /></a>
+                </td>
+                <td>
+                    <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60"></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <div id="TA_selfserveprop249" class="TA_selfserveprop">
+                        <ul id="VxSpvCMzk" class="TA_links eDopWsP4sC">
+                            <li id="wtIGEK" class="7SebMarka0z6">
+                                <a target="_blank" href="http://www.tripadvisor.co.uk/"><img src="http://www.tripadvisor.co.uk/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <script src="http://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=249&amp;locationId=2226294&amp;lang=en_UK&amp;rating=true&amp;nreviews=5&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=false&amp;border=true&amp;display_version=2"></script>
+                </td>
+            </tr>
+        </table>
     </div>
     <div class="clear"> </div>
   </div>
 </div>
+
+<script type="text/javascript" async src="//assets.pinterest.com/js/pinit.js"></script>
+
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script type="text/javascript">
+    window.twttr = (function (d, s, id) { var t, js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) { return } js = d.createElement(s); js.id = id; js.src = "https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } }) }(document, "script", "twitter-wjs"));
+</script>
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<script src="http://www.jscache.com/wejs?wtype=linkingWidgetWAR&amp;uniq=91&amp;locationId=2226294&amp;lang=en_UK&amp;border=true&amp;display_version=2"></script>
