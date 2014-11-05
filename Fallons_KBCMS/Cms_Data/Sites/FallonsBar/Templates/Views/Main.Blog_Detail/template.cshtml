@@ -1,12 +1,13 @@
-﻿ <div class="blog">	
-		      <div class="wrap">
-       <div class="blog-details">
-    <img src="@Url.Content(ViewBag.Blog_Detail.Img)">
-              <h3 @ViewHelper.Edit(ViewBag.Blog_Detail,"Title")>
-         @ViewBag.Blog_Detail.Title
-    </h3>    
-    <div @ViewHelper.Edit(ViewBag.Blog_Detail,"Detail") class="detail-content">
-         @Html.Raw(ViewBag.Blog_Detail.Detail)  
+﻿<div class="blog">
+    <div class="wrap">
+        <div class="blog-details">
+            <img src="@Url.Content(ViewBag.Blog_Detail.Img)" height="300" width="500">
+            <h3 @ViewHelper.Edit(ViewBag.Blog_Detail, "Title")>
+                @ViewBag.Blog_Detail.Title
+            </h3>
+            <div @ViewHelper.Edit(ViewBag.Blog_Detail, "Detail") class="detail-content" style="min-height: 350px;">
+                @Html.Raw(ViewBag.Blog_Detail.Detail)
+            </div>
+        </div>
     </div>
-   </div>
 </div>

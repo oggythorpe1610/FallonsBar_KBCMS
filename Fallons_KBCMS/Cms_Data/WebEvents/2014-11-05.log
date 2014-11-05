@@ -1,0 +1,244 @@
+Event code: 100000
+Event message: Path '/Cms_Data/Contents/FallonsBar/Media/DownloadMenus/BreakfastMenu.pdf' was not found.
+Event time: 11/5/2014 3:05:32 PM
+Event time (UTC): 11/5/2014 3:05:32 PM
+Event ID: 56035bf5a80a476d8dd05109961db67d
+Event sequence: 107
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/51/ROOT-1-130596651033152005
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: c:\users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\
+    Machine name: WINDEV1
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Path '/Cms_Data/Contents/FallonsBar/Media/DownloadMenus/BreakfastMenu.pdf' was not found.
+
+Request information:
+    Request URL: /Cms_Data/Contents/FallonsBar/Media/DownloadMenus/BreakfastMenu.pdf
+    Request path: /Cms_Data/Contents/FallonsBar/Media/DownloadMenus/BreakfastMenu.pdf
+    User host address: ::1
+    User: 
+    Is authenticated: False
+    Authentication Type: 
+    Thread account name: PARKERSOFT\martinosgathorpe
+
+Thread information:
+    Thread ID: 57
+    Thread account name: PARKERSOFT\martinosgathorpe
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnSiteNotExists(ActionExecutingContext filterContext)
+   at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: Path '/Cms_Data/Contents/FallonsBar/Media/DownloadMenus/BreakfastMenu.pdf' was not found.
+Event time: 11/5/2014 3:09:10 PM
+Event time (UTC): 11/5/2014 3:09:10 PM
+Event ID: 1ac80cb49cd04f8893f465599f2bda21
+Event sequence: 161
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/51/ROOT-1-130596651033152005
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: c:\users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\
+    Machine name: WINDEV1
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Path '/Cms_Data/Contents/FallonsBar/Media/DownloadMenus/BreakfastMenu.pdf' was not found.
+
+Request information:
+    Request URL: /Cms_Data/Contents/FallonsBar/Media/DownloadMenus/BreakfastMenu.pdf
+    Request path: /Cms_Data/Contents/FallonsBar/Media/DownloadMenus/BreakfastMenu.pdf
+    User host address: ::1
+    User: 
+    Is authenticated: False
+    Authentication Type: 
+    Thread account name: PARKERSOFT\martinosgathorpe
+
+Thread information:
+    Thread ID: 93
+    Thread account name: PARKERSOFT\martinosgathorpe
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnSiteNotExists(ActionExecutingContext filterContext)
+   at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 3005
+Event message: An unhandled exception has occurred.
+Event time: 11/5/2014 3:37:02 PM
+Event time (UTC): 11/5/2014 3:37:02 PM
+Event ID: f4adb19a212149af832cbfb96faf0bb5
+Event sequence: 477
+Event occurrence: 27
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/51/ROOT-1-130596651033152005
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: c:\users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\
+    Machine name: WINDEV1
+
+Process information:
+    Process ID: 9864
+    Process name: iisexpress.exe
+    Account name: PARKERSOFT\martinosgathorpe
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Type 'ASP._Page_Cms_Data_Sites_FallonsBar_Templates_Layouts_Main_template_cshtml' does not inherit from 'System.Web.WebPages.WebPage'.
+
+Request information:
+    Request URL: http://localhost:58438/Cms_Data/Sites/FallonsBar/Templates/Layouts/Main/template.cshtml
+    Request path: /Cms_Data/Sites/FallonsBar/Templates/Layouts/Main/template.cshtml
+    User host address: ::1
+    User: 
+    Is authenticated: False
+    Authentication Type: 
+    Thread account name: PARKERSOFT\martinosgathorpe
+
+Thread information:
+    Thread ID: 16
+    Thread account name: PARKERSOFT\martinosgathorpe
+    Is impersonating: False
+    Stack trace:    at System.Web.UI.Util.CheckAssignableType(Type baseType, Type type)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   at System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 3005
+Event message: An unhandled exception has occurred.
+Event time: 11/5/2014 3:41:51 PM
+Event time (UTC): 11/5/2014 3:41:51 PM
+Event ID: 4c69bffe22384f718c3db6c267919c19
+Event sequence: 485
+Event occurrence: 28
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/51/ROOT-1-130596651033152005
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: c:\users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\
+    Machine name: WINDEV1
+
+Process information:
+    Process ID: 9864
+    Process name: iisexpress.exe
+    Account name: PARKERSOFT\martinosgathorpe
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Type 'ASP._Page_Cms_Data_Sites_FallonsBar_Templates_Views_Main_Menus_template_cshtml' does not inherit from 'System.Web.WebPages.WebPage'.
+
+Request information:
+    Request URL: http://localhost:58438/Cms_Data/Sites/FallonsBar/Templates/Views/Main.Menus/template.cshtml
+    Request path: /Cms_Data/Sites/FallonsBar/Templates/Views/Main.Menus/template.cshtml
+    User host address: ::1
+    User: 
+    Is authenticated: False
+    Authentication Type: 
+    Thread account name: PARKERSOFT\martinosgathorpe
+
+Thread information:
+    Thread ID: 83
+    Thread account name: PARKERSOFT\martinosgathorpe
+    Is impersonating: False
+    Stack trace:    at System.Web.UI.Util.CheckAssignableType(Type baseType, Type type)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   at System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 3005
+Event message: An unhandled exception has occurred.
+Event time: 11/5/2014 5:22:11 PM
+Event time (UTC): 11/5/2014 5:22:11 PM
+Event ID: e3418818dfc44ed091622185d344f742
+Event sequence: 320
+Event occurrence: 1
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/51/ROOT-2-130596772484938565
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: c:\users\martinosgathorpe\Development\Fallons_KBCMS\Fallons_KBCMS\
+    Machine name: WINDEV1
+
+Process information:
+    Process ID: 9864
+    Process name: iisexpress.exe
+    Account name: PARKERSOFT\martinosgathorpe
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Type 'ASP._Page_Cms_Data_Sites_FallonsBar_Templates_Views_Main_Menus_template_cshtml' does not inherit from 'System.Web.WebPages.WebPage'.
+
+Request information:
+    Request URL: http://localhost:58438/Cms_Data/Sites/FallonsBar/Templates/Views/Main.Menus/template.cshtml
+    Request path: /Cms_Data/Sites/FallonsBar/Templates/Views/Main.Menus/template.cshtml
+    User host address: ::1
+    User: 
+    Is authenticated: False
+    Authentication Type: 
+    Thread account name: PARKERSOFT\martinosgathorpe
+
+Thread information:
+    Thread ID: 72
+    Thread account name: PARKERSOFT\martinosgathorpe
+    Is impersonating: False
+    Stack trace:    at System.Web.UI.Util.CheckAssignableType(Type baseType, Type type)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   at System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------

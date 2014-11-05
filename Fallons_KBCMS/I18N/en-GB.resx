@@ -1898,4 +1898,151 @@ Are you sure you want to use this size?</value>
   <data name="Are you sure you want to publish this page?" xml:space="preserve">
     <value>Are you sure you want to publish this page?</value>
   </data>
+  <data name="Not Found - Kooboo CMS" xml:space="preserve">
+    <value>Not Found - Kooboo CMS</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>Not Found</value>
+  </data>
+  <data name="If you see this page, it means that Kooboo CMS has been installed on this server." xml:space="preserve">
+    <value>If you see this page, it means that Kooboo CMS has been installed on this server.</value>
+  </data>
+  <data name="The requested URL was not found on this server. These could be the following reasons." xml:space="preserve">
+    <value>The requested URL was not found on this server. These could be the following reasons.</value>
+  </data>
+  <data name="You might have typed the URL incorrectly" xml:space="preserve">
+    <value>You might have typed the URL incorrectly</value>
+  </data>
+  <data name="Your page has been moved" xml:space="preserve">
+    <value>Your page has been moved</value>
+  </data>
+  <data name="You haven't created your Kooboo website yet. Please &lt;a href='{0}'&gt;login&lt;/a&gt; and create your first Kooboo website." xml:space="preserve">
+    <value>You haven't created your Kooboo website yet. Please &lt;a href='{0}'&gt;login&lt;/a&gt; and create your first Kooboo website.</value>
+  </data>
+  <data name="Create content type" xml:space="preserve">
+    <value>Create content type</value>
+  </data>
+  <data name="The Tree style data field is required." xml:space="preserve">
+    <value>The Tree style data field is required.</value>
+  </data>
+  <data name="Tree style data" xml:space="preserve">
+    <value>Tree style data</value>
+  </data>
+  <data name="Create the tree style data and management interface." xml:space="preserve">
+    <value>Create the tree style data and management interface.</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="Control type" xml:space="preserve">
+    <value>Control type</value>
+  </data>
+  <data name="Summary field" xml:space="preserve">
+    <value>Summary field</value>
+  </data>
+  <data name="Content list page" xml:space="preserve">
+    <value>Content list page</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Validation" xml:space="preserve">
+    <value>Validation</value>
+  </data>
+  <data name="Selection value" xml:space="preserve">
+    <value>Selection value</value>
+  </data>
+  <data name="This name is being used by other columns." xml:space="preserve">
+    <value>This name is being used by other columns.</value>
+  </data>
+  <data name="Invalid column name." xml:space="preserve">
+    <value>Invalid column name.</value>
+  </data>
+  <data name="Name of your field, it uses the same naming rule as C# veriable name." xml:space="preserve">
+    <value>Name of your field, it uses the same naming rule as C# veriable name.</value>
+  </data>
+  <data name="Descriptive label of your field on the content editing page." xml:space="preserve">
+    <value>Descriptive label of your field on the content editing page.</value>
+  </data>
+  <data name="The way that you would like to input your content." xml:space="preserve">
+    <value>The way that you would like to input your content.</value>
+  </data>
+  <data name="Data type" xml:space="preserve">
+    <value>Data type</value>
+  </data>
+  <data name="The Summary field will be used as a title or summary to describe your content item." xml:space="preserve">
+    <value>The Summary field will be used as a title or summary to describe your content item.</value>
+  </data>
+  <data name="Show this field in the CMS content list page." xml:space="preserve">
+    <value>Show this field in the CMS content list page.</value>
+  </data>
+  <data name="Input tip while users are editing content." xml:space="preserve">
+    <value>Input tip while users are editing content.</value>
+  </data>
+  <data name="Tooltip" xml:space="preserve">
+    <value>Tooltip</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="Allow null" xml:space="preserve">
+    <value>Allow null</value>
+  </data>
+  <data name="Allows null value in this field" xml:space="preserve">
+    <value>Allows null value in this field</value>
+  </data>
+  <data name="Modifiable" xml:space="preserve">
+    <value>Modifiable</value>
+  </data>
+  <data name="Enable the modification of this field in the content editing page." xml:space="preserve">
+    <value>Enable the modification of this field in the content editing page.</value>
+  </data>
+  <data name="Custom settings" xml:space="preserve">
+    <value>Custom settings</value>
+  </data>
+  <data name="Error message" xml:space="preserve">
+    <value>Error message</value>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="The field Length must be a number." xml:space="preserve">
+    <value>The field Length must be a number.</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Pattern" xml:space="preserve">
+    <value>Pattern</value>
+  </data>
+  <data name="Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="From folder" xml:space="preserve">
+    <value>From folder</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="The field {0} cannot be null or empty." xml:space="preserve">
+    <value>The field {0} cannot be null or empty.</value>
+  </data>
+  <data name="New page" xml:space="preserve">
+    <value>New page</value>
+  </data>
+  <data name="This new page" xml:space="preserve">
+    <value>This new page</value>
+  </data>
+  <data name="Save &amp; publish" xml:space="preserve">
+    <value>Save &amp; publish</value>
+  </data>
+  <data name="New view" xml:space="preserve">
+    <value>New view</value>
+  </data>
+  <data name="Edit content type" xml:space="preserve">
+    <value>Edit content type</value>
+  </data>
 </root>

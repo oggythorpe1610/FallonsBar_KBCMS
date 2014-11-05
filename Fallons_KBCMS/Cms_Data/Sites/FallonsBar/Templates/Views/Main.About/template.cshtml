@@ -1,55 +1,52 @@
-﻿<div class="about_desc">		
-  <div class="wrap">		 
-    <div class="about-topgrid1">
-      <h3>@("Who We Are".Label())</h3>
-      <img src="@Url.FrontUrl().FileUrl("images/welcome_img1.jpg")" title="name" alt="" />
-      @Html.FrontHtml().RenderHtmlBlock("WhoWeAre")  
+﻿<div class="about_desc">
+    <div class="wrap">
+        <div class="about-topgrid1">
+            <h3>@("Who We Are".Label())</h3>
+            <img src="@Url.FrontUrl().FileUrl("images/welcome_img1.jpg")" title="name" alt="" />
+            @Html.FrontHtml().RenderHtmlBlock("WhoWeAre")
+        </div>
+        <div class="about-histore">
+            @Html.FrontHtml().RenderHtmlBlock("Our_History")
+        </div>
+        <div class="about-services">
+            @* social buttons *@
+            <table class="social-table">
+                <tr>
+                    <td style="height:25px;">
+                        <div class="fb-like" data-href="http://www.facebook.com/fallons.bar" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true" style="horizontal-align:left;zoom:1.4;" data-size="large" data-width="120"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://twitter.com/fallonsbar2014" class="twitter-follow-button" data-show-count="true" data-count="vertical" data-size="large">Follow</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="//gb.pinterest.com/pin/create/button/?url=http%3A%2F%2Fuk.pinterest.com%2Ffallonsbar%2F&media=http%3A%2F%2Fmedia-cache-ec0.pinimg.com%2Favatars%2Ffallonsbar_1411721273_140.jpg&description=Fallons%20Bar%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="beside" data-pin-color="red" data-pin-height="28"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="g-follow" data-annotation="bubble" data-height="24" data-href="//plus.google.com/u/0/113170230562251712198" data-rel="author"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <div id="TA_selfserveprop340" class="TA_selfserveprop">
+                            <ul id="x3eSQaH" class="TA_links Q56TPvIn7">
+                                <li id="y0GnKJZKv" class="kLqJU7D">
+                                    <a target="_blank" href="http://www.tripadvisor.co.uk/"><img src="http://www.tripadvisor.co.uk/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <script src="http://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=340&amp;locationId=2226294&amp;lang=en_UK&amp;rating=true&amp;nreviews=5&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=false&amp;border=true&amp;display_version=2"></script>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="clear"> </div>
     </div>
-    <div class="about-histore">
-      @Html.FrontHtml().RenderHtmlBlock("Our_History")
-    </div>
-    <div class="about-services">
-        @* social buttons *@
-        <table>
-            <tr>
-                <td>
-                    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="20" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true" data-size="large"></div>
-                </td>
-                <td>
-                    <a class="twitter-share-button"
-                       href="https://twitter.com/share"
-                       data-url="https://dev.twitter.com/web/tweet-button"
-                       data-via="fallonsbar"
-                       data-text="Fallons Bar"
-                       data-related="fallonsbar:Fallons Bar"
-                       data-count="vertical">
-                        Tweet
-                    </a>
-                </td>
-                <td>
-                    @*<a href="//gb.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="none" data-pin-color="red" data-pin-height="28"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" /></a>*@
-                    <a href="//gb.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="above" data-pin-color="red" data-pin-height="28"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" /></a>
-                </td>
-                <td>
-                    <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60"></div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="4">
-                    <div id="TA_selfserveprop249" class="TA_selfserveprop">
-                        <ul id="VxSpvCMzk" class="TA_links eDopWsP4sC">
-                            <li id="wtIGEK" class="7SebMarka0z6">
-                                <a target="_blank" href="http://www.tripadvisor.co.uk/"><img src="http://www.tripadvisor.co.uk/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor" /></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <script src="http://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=249&amp;locationId=2226294&amp;lang=en_UK&amp;rating=true&amp;nreviews=5&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=false&amp;border=true&amp;display_version=2"></script>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="clear"> </div>
-  </div>
 </div>
 
 <script type="text/javascript" async src="//assets.pinterest.com/js/pinit.js"></script>
@@ -64,10 +61,10 @@
     }(document, 'script', 'facebook-jssdk'));
 </script>
 
-<script type="text/javascript">
-    window.twttr = (function (d, s, id) { var t, js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) { return } js = d.createElement(s); js.id = id; js.src = "https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } }) }(document, "script", "twitter-wjs"));
-</script>
+@*<script type="text/javascript">
+        window.twttr = (function (d, s, id) { var t, js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) { return } js = d.createElement(s); js.id = id; js.src = "https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } }) }(document, "script", "twitter-wjs"));
+    </script>*@
+
+<script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
 
 <script src="https://apis.google.com/js/platform.js" async defer></script>
-
-<script src="http://www.jscache.com/wejs?wtype=linkingWidgetWAR&amp;uniq=91&amp;locationId=2226294&amp;lang=en_UK&amp;border=true&amp;display_version=2"></script>

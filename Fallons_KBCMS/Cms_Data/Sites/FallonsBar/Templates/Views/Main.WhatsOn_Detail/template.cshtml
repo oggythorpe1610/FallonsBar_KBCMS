@@ -1,13 +1,13 @@
-﻿  <div class="whatson">	
-	<div class="wrap">			       	
-<div class="whatson-details">
-    <img src="@Url.Content(ViewBag.WhatsOn_Detail.Img)">
-              <h3 @ViewHelper.Edit(ViewBag.WhatsOn_Detail,"Title")>
-         @ViewBag.WhatsOn_Detail.Title
-    </h3>
-    <div @ViewHelper.Edit(ViewBag.WhatsOn_Detail,"Detail") class="detail-content">
-         @Html.Raw(ViewBag.WhatsOn_Detail.Detail)  
+﻿<div class="whatson">
+    <div class="wrap">
+        <div class="blog-details">
+            <img src="@Url.Content(ViewBag.WhatsOn_Detail.Img)" height="300" width="500">
+            <h3 @ViewHelper.Edit(ViewBag.WhatsOn_Detail, "Title")>
+                @ViewBag.WhatsOn_Detail.Title
+            </h3>
+            <div @ViewHelper.Edit(ViewBag.WhatsOn_Detail, "Detail") class="detail-content" style="min-height: 350px;">
+                @Html.Raw(ViewBag.WhatsOn_Detail.Detail)
+            </div>
+        </div>
     </div>
-   </div>
-     	</div>  
-    </div>
+</div>

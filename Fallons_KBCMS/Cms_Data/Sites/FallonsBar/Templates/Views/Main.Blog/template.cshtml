@@ -1,7 +1,7 @@
 ﻿ <div class="blog">	
 		      <div class="wrap">
-                <div class="bolog_content">
-			 @foreach (var item in ViewBag.Bolg){
+                <div class="blog_content">
+			 @foreach (var item in ViewBag.Blog){
 <div class="blog_list">
 				<h4><a href="@Url.FrontUrl().PageUrl("Blog/Detail",new{UserKey = item.UserKey})" @ViewHelper.Edit(item,"Title")>@item.Title</a></h4>
 				<div class="blog_para">

@@ -1,0 +1,12 @@
+﻿<div class="bookings">	
+  <div class="wrap">			       	
+    <div class="section_wo group_wo bookings">
+      @foreach (var item in ViewBag.Bookings){
+      <div class="top_grid">
+        <h3 @ViewHelper.Edit(item,"Title")>@item.Title </h3>
+        <p @ViewHelper.Edit(item,"Summary")>@item.Summary</p>
+      </div>
+      }                      
+    </div>
+  </div>
+</div>

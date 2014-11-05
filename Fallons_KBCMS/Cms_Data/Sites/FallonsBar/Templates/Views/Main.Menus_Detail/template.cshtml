@@ -1,13 +1,38 @@
-﻿<div class="menus">	
-  <div class="wrap">			       	
-    <div class="menus-details">
-      <img src="@Url.Content(ViewBag.Menus_Detail.Img)">
-      <h3 @ViewHelper.Edit(ViewBag.Menus_Detail,"Title")>
-        @ViewBag.Menus_Detail.Title
-      </h3>
-      <div @ViewHelper.Edit(ViewBag.Menus_Detail,"Detail") class="detail-content">
-        @Html.Raw(ViewBag.Menus_Detail.Detail)  
-      </div>
+﻿<div class="menus">
+    <div class="wrap">
+        <div class="menus-details">
+            <img src="@Url.Content(ViewBag.Menus_Detail.Img)">
+            <h3 @ViewHelper.Edit(ViewBag.Menus_Detail, "Title") class="menu-title">
+                @ViewBag.Menus_Detail.Title
+            </h3>
+            <div @ViewHelper.Edit(ViewBag.Menus_Detail, "Detail") class="menu-content">
+                @Html.Raw(ViewBag.Menus_Detail.Detail)
+            </div>
+            @{
+                bool hasFile = false;
+            }
+            @if (@ViewBag.Menus_Detail.Title.Contains("Breakfast"))
+            {
+                hasFile = true;
+                <a class="button" href="/Cms_Data/Contents/FallonsBar/Media/DownloadMenus/BreakfastMenu.pdf"><img src="/Cms_Data/Sites/FallonsBar/Files/images/pdf.png" width="158" height="39"></a>
+            }
+            @*@if(@ViewBag.Menus_Detail.Title.Contains("Lunchtime"))
+                {
+                  <a class="button" href="/Cms_Data/Contents/FallonsBar/Media/DownloadMenus/LunchtimeMenu.pdf"><img src="/Cms_Data/Sites/FallonsBar/Files/images/pdf.png" width="158" height="39"></a>
+                }*@
+            @if (@ViewBag.Menus_Detail.Title.Contains("Evening"))
+            {
+                hasFile = true;
+                <a class="button" href="/Cms_Data/Contents/FallonsBar/Media/DownloadMenus/EveningMenu.pdf"><img src="/Cms_Data/Sites/FallonsBar/Files/images/pdf.png" width="158" height="39"></a>
+            }
+            @*@if(@ViewBag.Menus_Detail.Title.Contains("PrivateFunc"))
+                {
+                <a class="button" href="/Cms_Data/Contents/FallonsBar/Media/DownloadMenus/PrivateFuncMenu.pdf"><img src="/Cms_Data/Sites/FallonsBar/Files/images/pdf.png" width="158" height="39"></a>
+                }*@
+            @if (hasFile)
+            {
+                <a href="http://get.adobe.com/reader/"><img src="/Cms_Data/Sites/FallonsBar/Files/images/getadobereader.png" width="158" height="39" alt="Get Adobe Reader."></a>
+            }
+        </div>
     </div>
-  </div>  
 </div>
